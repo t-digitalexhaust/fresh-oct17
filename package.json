@@ -1,10 +1,10 @@
 {
-  "name": "fresh-platform",
+  "name": "fresh-oct17",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn add --dev typescript @types/node && next build",
     "start": "next start",
     "lint": "next lint"
   },
