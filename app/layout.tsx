@@ -1,5 +1,5 @@
-import type { Metadata } from "@/node_modules-old/next";
-import localFont from "@/node_modules-old/next/font/local";
+import { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const geistSans = localFont({

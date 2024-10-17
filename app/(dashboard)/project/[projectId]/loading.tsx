@@ -1,5 +1,10 @@
-import React from "@/node_modules-old/@types/react";
+import React from "react";
 
 export default function ProjectLoading() {
-  return <div>Project Loading...</div>;
+  return (
+    <div>
+      <h2>Loading Project...</h2>
+      {/* You can add more loading UI elements here */}
+    </div>
+  );
 }

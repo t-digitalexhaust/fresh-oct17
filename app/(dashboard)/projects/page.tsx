@@ -1,6 +1,8 @@
-import React from "@/node_modules-old/@types/react";
+import React from "react";
+import Link from "next/link";
 
 type Project = {
+  id: string;
   name: string;
 };
 
@@ -8,9 +10,9 @@ export default async function ProjectsPage() {
   const projectPromise = new Promise<Project[]>((resolve) => {
     setTimeout(() => {
       resolve([
-        { name: "Project 1" },
-        { name: "Project 2" },
-        { name: "Project 3" },
+        { id: "1", name: "Project 1" },
+        { id: "2", name: "Project 2" },
+        { id: "3", name: "Project 3" },
       ]);
     }, 5000);
   });
@@ -20,8 +22,8 @@ export default async function ProjectsPage() {
   return (
     <div>
       <h1>Projects Page</h1>
-      {projects.map((project, idx) => (
-        <div key={idx}>{project.name}</div>
+      {projects.map((project) => (
+        <div key={project.id}>{project.name}</div>
       ))}
     </div>
   );

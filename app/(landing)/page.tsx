@@ -1,4 +1,4 @@
-import React from "@/node_modules-old/@types/react";
+import React from "react";
 
 export default function LandingPage() {
   return <div>Landing Page</div>;

@@ -1,4 +1,4 @@
-import React from "@/node_modules-old/@types/react";
+import React from "react";
 
 export default function TemplateNotFound() {
   return <div>Template Not Found</div>;

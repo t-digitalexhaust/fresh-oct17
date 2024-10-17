@@ -1,5 +1,5 @@
-import { notFound } from "@/node_modules-old/next/navigation";
-import React from "@/node_modules-old/@types/react";
+import React from "react";
+import { notFound } from "next/navigation";
 
 interface TemplatePageProps {
   params: {

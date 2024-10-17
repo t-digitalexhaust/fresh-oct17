@@ -1,4 +1,4 @@
-import React from "@/node_modules-old/@types/react";
+import React from "react";
 
 type Template = {
   name: string;
