@@ -1,4 +1,4 @@
-import React from "react";
+import React from "@/node_modules-old/@types/react";
 
 type Project = {
   name: string;
