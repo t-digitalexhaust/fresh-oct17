@@ -12,10 +12,8 @@ const nextConfig = {
     }
     return config;
   },
-  // Uncomment the following line if you're using images from external domains
-  // images: {
-  //   domains: ['example.com'],
-  // },
+  // Ensure output is set to 'standalone'
+  output: "standalone",
 };
 
 export default nextConfig;
